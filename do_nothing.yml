@@ -1,9 +1,10 @@
----
-# This playbook just waits 1 second:
-
-- hosts: myhosts
-
-- tasks:
+- name: Just do nothing and wait
+  hosts: myhosts
+  tasks:
    - name: Pause
-     ansible.builtin.pause: 
+     ansible.builtin.pause:
         minutes: 1
+
+   - name: Print message
+     ansible.builtin.debug:
+      msg: Hello world
