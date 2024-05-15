@@ -1,0 +1,12 @@
+- name: My first play
+  hosts: myhosts
+  tasks:
+   - name: Ping my hosts
+     ansible.builtin.ping:
+
+   - name: Print message
+     ansible.builtin.debug:
+      msg: Hello world
+      
+   - name: date
+     ansible.builtin.raw: date>data_di_oggi.txt
