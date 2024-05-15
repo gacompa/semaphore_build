@@ -5,4 +5,4 @@
 
 - tasks:
    - name: Pause
-     ansible.builtin.pause: minutes: 0
+     ansible.builtin.pause: minutes: 1
