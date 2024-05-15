@@ -1,6 +1,8 @@
 ---
 # This playbook just waits 1 second:
 
-- name: Pause
-  ansible.builtin.pause:
-    minutes: 0
+- hosts: 
+
+- tasks:
+   - name: Pause
+     ansible.builtin.pause: minutes: 0
