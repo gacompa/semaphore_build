@@ -1,3 +1,6 @@
+---
+# This playbook just waits 1 second:
+
 - name: Pause for 5 minutes to build app cache
   ansible.builtin.pause:
     minutes: 0
