@@ -1,5 +1,5 @@
 - name: Just do nothing and wait
-  hosts: myhosts
+  hosts: all
   
   tasks:
   - name: Print message
