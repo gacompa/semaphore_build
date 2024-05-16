@@ -1,5 +1,6 @@
 - name: do_nothing
   hosts: myhosts
+  
   tasks:
    - name: Pause
      ansible.builtin.pause:
