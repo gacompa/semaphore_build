@@ -1,4 +1,4 @@
-- name: Just do nothing and wait
+- name: do_nothing
   hosts: myhosts
   tasks:
    - name: Pause
