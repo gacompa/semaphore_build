@@ -1,0 +1,11 @@
+- name: do_nothing
+  hosts: myhosts
+  
+  tasks:
+   - name: Pause
+     ansible.builtin.pause:
+        minutes: 1
+
+   - name: Print message
+     ansible.builtin.debug:
+      msg: Hello world
