@@ -1,5 +1,5 @@
 - name: do_nothing
-  hosts: myhosts
+  hosts: webservers
   
   tasks:
    - name: Pause
